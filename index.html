@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* :root{
+            --bs-primary:
+        } */
+
+        img {
+            width: 100%;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header class="text-bg-primary p-3 d-flex justify-content-between">
+        <a class="" href="">
+            <img src="./imgs/logo.png" alt="">
+        </a>
+
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                MENU
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div>
+            <p>você está aqui</p>
+            <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><u>#awe</u></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">nossa equipe</li>
+                </ol>
+            </nav>
+        </div>
+
+        <div>
+            <p class="text-end">NOSSOS MEMBROS</p>
+            <h3 class="text-end text-primary">Conheça nossa equipe topzera</h3>
+        </div>
+
+        <div>
+            <p class="text-secondary pb-2 fs-6 text">Filtrar por habilidade</p>
+            <div class="">
+                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                <label class="btn btn-primary" for="btn-check">TODOS</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-check-outlined">UI DESIGN</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-outlined2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-check-outlined2">UX DESIGN</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-outlined3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-check-outlined3">FRONT END</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-outlined4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-check-outlined4">BACK END</label>
+
+                <input type="checkbox" class="btn-check" id="btn-check-outlined5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btn-check-outlined5">NEGÓCIOS</label>
+            </div>
+        </div>
+
+        <div>
+
+            <div class="mt-5 row">
+                <div class="col-4">
+                    <img src="./imgs/thumb.png" alt="">
+                    <h4 class="py-2">DANIEL BARBOSA</h4>
+                    <p class="py-2">Agência Web é um projeto do IFRN campus Natal Zona Norte. O site é uma vitrine de
+                        apresentação do projeto e clientes.</p>
+                    <p class="bold">#back-end #front-end #estratégia</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./imgs/thumb-1.png" alt="">
+                    <h4 class="py-2">DANIEL BARBOSA</h4>
+                    <p class="py-2">Agência Web é um projeto do IFRN campus Natal Zona Norte. O site é uma vitrine de
+                        apresentação do projeto e clientes.</p>
+                    <p class="bold">#back-end #front-end #estratégia</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./imgs/thumb-2.png" alt="">
+                    <h4 class="py-2">DANIEL BARBOSA</h4>
+                    <p class="py-2">Agência Web é um projeto do IFRN campus Natal Zona Norte. O site é uma vitrine de
+                        apresentação do projeto e clientes.</p>
+                    <p class="bold">#back-end #front-end #estratégia</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./imgs/thumb-3.png" alt="">
+                    <h4 class="py-2">DANIEL BARBOSA</h4>
+                    <p class="py-2">Agência Web é um projeto do IFRN campus Natal Zona Norte. O site é uma vitrine de
+                        apresentação do projeto e clientes.</p>
+                    <p class="bold">#back-end #front-end #estratégia</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./imgs/thumb-4.png" alt="">
+                    <h4 class="py-2">DANIEL BARBOSA</h4>
+                    <p class="py-2">Agência Web é um projeto do IFRN campus Natal Zona Norte. O site é uma vitrine de
+                        apresentação do projeto e clientes.</p>
+                    <p class="bold">#back-end #front-end #estratégia</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./imgs/thumb-5.png" alt="">
+                    <h4 class="py-2">DANIEL BARBOSA</h4>
+                    <p class="py-2">Agência Web é um projeto do IFRN campus Natal Zona Norte. O site é uma vitrine de
+                        apresentação do projeto e clientes.</p>
+                    <p class="bold">#back-end #front-end #estratégia</p>
+                </div>
+            </div>
+
+            <div type="button" class="btn btn-outline-primary bold my-5">CARREGAR OUTROS <svg width="41" height="22"
+                    viewBox="0 0 41 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 11.5H39.5M39.5 11.5L30 1M39.5 11.5L30 21.5" stroke="#2648A1" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-warning p-4 text-center">
+        <div class="row justify-content-center mb-2">
+            <p class="col-3">
+                <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16 1.31445H6C3.23858 1.31445 1 3.55155 1 6.31116V16.3046C1 19.0642 3.23858 21.3013 6 21.3013H16C18.7614 21.3013 21 19.0642 21 16.3046V6.31116C21 3.55155 18.7614 1.31445 16 1.31445Z"
+                        stroke="#224586" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M15 10.6783C15.1234 11.51 14.9813 12.3593 14.5938 13.1056C14.2063 13.8518 13.5932 14.457 12.8416 14.835C12.0901 15.213 11.2385 15.3445 10.4078 15.2109C9.57713 15.0774 8.80977 14.6855 8.21485 14.091C7.61993 13.4965 7.22774 12.7297 7.09408 11.8997C6.96042 11.0696 7.09208 10.2186 7.47034 9.46761C7.8486 8.71664 8.4542 8.10398 9.20099 7.71676C9.94779 7.32955 10.7978 7.1875 11.63 7.31082C12.4789 7.43661 13.2649 7.8319 13.8717 8.4383C14.4785 9.04469 14.8741 9.83004 15 10.6783Z"
+                        stroke="#224586" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M16.5 5.81104H16.51" stroke="#224586" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <u><i>@awescolar</i></u>
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <p class="col-3"><i>segue a gente lá no instagram, dá essa moralzinha pra nós!</i></p>
+        </div>
+    </div>
+
+    <footer class="py-5 bg-primary"> 
+        <div class="container">
+            <div class="row">
+                <p class="col-5 text-light"><span class="text-warning">Queremos você aqui</span>. Que tal você fazer parte da nossa equipe e inovarmos na escola, <span class="text-warning">juntos?</span></p>
+            </div>
+        </div>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
